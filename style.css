@@ -18,7 +18,7 @@ h2 {
 
 .container {
     display: flex;
-    margin: 150px;
+    margin-bottom: 150px;
 }
 
 .dream {
@@ -58,16 +58,26 @@ h2 {
 
 #junior {
 
-    border-left: 5px solid blue;
+    border-left: 7px solid blue;
     border-radius: 10px;
     padding: 10px;
 }
 
-.experience {
-    width: 40%;
-    padding: 10px;
-    box-shadow: 10px 10px 40px gray;
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
+
+.experience {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 footer p {
     text-align: center
