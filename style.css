@@ -8,21 +8,25 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: orange
 }
 
-section {
+.container {
     display: flex;
     margin: 150px;
 }
 
-.p1 {
+.dream {
     width: 50%;
-    padding-left: 5%;
+    padding: 5%;
 }
 
-.p1 img {
+.dream img {
     width: 80%
 }
 
@@ -31,11 +35,11 @@ section {
     background-image: linear-gradient(orange, red);
     color: white;
     font-weight: 700;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 
-.p3 {
+.top {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
