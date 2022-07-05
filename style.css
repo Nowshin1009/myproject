@@ -49,3 +49,26 @@ h2 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+#stake {
+    border-left: 7px solid tomato;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#junior {
+
+    border-left: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.experience {
+    width: 40%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+footer p {
+    text-align: center
+}
